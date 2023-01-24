@@ -1,5 +1,4 @@
 from curses.ascii import HT
-from this import d
 from fastapi import APIRouter, status, HTTPException, Depends
 from sqlalchemy.orm import Session
 from .. import schemas, database, models, oauth2
